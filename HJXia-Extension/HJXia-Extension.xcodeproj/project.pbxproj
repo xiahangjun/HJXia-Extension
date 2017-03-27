@@ -13,6 +13,7 @@
 		3867BC691E88DE61003CB892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3867BC671E88DE61003CB892 /* Main.storyboard */; };
 		3867BC6B1E88DE61003CB892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3867BC6A1E88DE61003CB892 /* Assets.xcassets */; };
 		3867BC6E1E88DE61003CB892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3867BC6C1E88DE61003CB892 /* LaunchScreen.storyboard */; };
+		3867BC7E1E88E0F8003CB892 /* HJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3867BC7D1E88E0F8003CB892 /* HJBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3867BC6A1E88DE61003CB892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3867BC6D1E88DE61003CB892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3867BC6F1E88DE61003CB892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3867BC7C1E88E0F8003CB892 /* HJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBaseViewController.h; sourceTree = "<group>"; };
+		3867BC7D1E88E0F8003CB892 /* HJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		3867BC5D1E88DE61003CB892 /* HJXia-Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3867BC751E88DFFF003CB892 /* Classes */,
 				3867BC611E88DE61003CB892 /* AppDelegate.h */,
 				3867BC621E88DE61003CB892 /* AppDelegate.m */,
 				3867BC641E88DE61003CB892 /* ViewController.h */,
@@ -77,6 +81,63 @@
 				3867BC5F1E88DE61003CB892 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3867BC751E88DFFF003CB892 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3867BC761E88DFFF003CB892 /* Base */,
+				3867BC771E88DFFF003CB892 /* Root */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3867BC761E88DFFF003CB892 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3867BC7B1E88E044003CB892 /* BaseViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3867BC771E88DFFF003CB892 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				3867BC781E88DFFF003CB892 /* Controller */,
+				3867BC791E88DFFF003CB892 /* Model */,
+				3867BC7A1E88DFFF003CB892 /* View */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		3867BC781E88DFFF003CB892 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3867BC791E88DFFF003CB892 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3867BC7A1E88DFFF003CB892 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3867BC7B1E88E044003CB892 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3867BC7C1E88E0F8003CB892 /* HJBaseViewController.h */,
+				3867BC7D1E88E0F8003CB892 /* HJBaseViewController.m */,
+			);
+			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3867BC661E88DE61003CB892 /* ViewController.m in Sources */,
+				3867BC7E1E88E0F8003CB892 /* HJBaseViewController.m in Sources */,
 				3867BC631E88DE61003CB892 /* AppDelegate.m in Sources */,
 				3867BC601E88DE61003CB892 /* main.m in Sources */,
 			);
